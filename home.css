@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.frame_0{
+    position: absolute;
+    display: flex;
+    height: 7vh;
+    width: 100vw;
+    background: darkslateblue;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 2px gray;
+}
+.logo{
+    position: relative;
+    left: 3vw;
+    font-size: 4vh;
+    height: 5vh;
+    line-height: 6vh;
+}
+.nav_buttons{
+    position: relative;
+    height: 3.5vh;
+    line-height: 3.5vh;
+    top: 1.75vh;
+    right: 5vw;
+}
+.nav_buttons>a{
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    color: snow;
+    text-decoration: none;
+}
+.frame_1{
+    position: absolute;
+    top: 10vh;
+    height: 35vh;
+    width: 100%;
+    border-bottom: 1px;
+    border: #afaca9;
+}
+.frame_2{
+    position: absolute;
+    top:45vh;
+
+}
+.frame_end{
+    position: absolute;
+    bottom: 100vh;
+
+}
