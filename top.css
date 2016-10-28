@@ -13,8 +13,6 @@
     position:relative;
     display:flex;
     height:30px;
-    margin-left:200px;
-    margin-right:200px;
     flex-direction:row;
     justify-content:flex-end;
     align-content:flex-start;
@@ -100,20 +98,6 @@
     align-items:center;
 }
 
-.top_list> ul > li > a
-{
-    position:relative;
-    display:flex;
-    margin-left:1px;
-    margin-right:1px;
-    height:60px;
-    line-height:60px;
-    text-decoration:none;
-    color:black;
-    font-size:15px;
-    font-family:monospace;
-}
-
 .top_login
 {
     position:relative;
@@ -126,7 +110,7 @@
     align-content:center;
 }
 
-.top_login>a
+.top_login>a , .top_list> ul > li > a
 {
     position:relative;
     display:flex;
